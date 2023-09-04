@@ -2,10 +2,10 @@ const mysql = require('mysql');
 let { check_arguments, empty_result } = require('./validations');
 
 const connection = mysql.createConnection({
-    host: '192.168.105.131',
-    user: 'pruebas',
-    password: 'pruebas05',
-    database: 'licencias_luis'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 connection.connect();
